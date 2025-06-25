@@ -53,6 +53,8 @@ header {
     padding: 1rem 1.5rem;
     background-color: var(--background-color);
     border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    gap: 1.5rem;
 }
 
 .controls label {

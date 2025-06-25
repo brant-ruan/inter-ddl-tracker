@@ -7,16 +7,18 @@ const CONFERENCES = [
         "location": "San Francisco, USA",
         "deadline": "2025-04-02T04:59:00Z",
         "website": "https://community.aejmc.org/conference/home",
-        "submission_link": "https://community.aejmc.org/conference/paper-competition/papercall"
+        "submission_link": "https://community.aejmc.org/conference/paper-competition/papercall",
+        "category": "Communication",
     },
     {
-        "acronym": "AEJMC Extended Abstracts",
+        "acronym": "AEJMC (Extended Abstracts)",
         "full_name": "AEJMC 108th Annual Conference",
         "year": 2025,
         "location": "San Francisco, USA",
         "deadline": "2025-04-02T04:59:00Z",
         "website": "https://community.aejmc.org/conference/home",
-        "submission_link": "https://community.aejmc.org/conference/paper-competition/papercall"
+        "submission_link": "https://community.aejmc.org/conference/paper-competition/papercall",
+        "category": "Communication",
     },
     {
         "acronym": "IAMCR",
@@ -25,7 +27,8 @@ const CONFERENCES = [
         "location": "Singapore",
         "deadline": "2025-02-07T23:59:00Z",
         "website": "https://iamcr.org/singapore2025",
-        "submission_link": "https://iamcr.org/singapore2025/cfp"
+        "submission_link": "https://iamcr.org/singapore2025/cfp",
+        "category": "Communication",
     },
     {
         "acronym": "ICA",
@@ -34,7 +37,8 @@ const CONFERENCES = [
         "location": "Denver, USA",
         "deadline": "2024-11-01T16:00:00Z",
         "website": "https://www.icahdq.org/mpage/ICA25",
-        "submission_link": "https://www.icahdq.org/mpage/ICA25-cfps"
+        "submission_link": "https://www.icahdq.org/mpage/ICA25-cfps",
+        "category": "Communication",
     },
     {
         "acronym": "NCA",
@@ -43,7 +47,8 @@ const CONFERENCES = [
         "location": "Denver, USA",
         "deadline": "2025-04-01T06:59:00Z",
         "website": "https://www.natcom.org/111-annual-convention/",
-        "submission_link": "https://www.natcom.org/call-for-submissions"
+        "submission_link": "https://www.natcom.org/call-for-submissions",
+        "category": "Communication",
     },
     {
         "acronym": "FAccT",
@@ -53,7 +58,8 @@ const CONFERENCES = [
         "abstract_deadline": "2025-01-15T23:59:00Z",
         "deadline": "2025-01-22T23:59:00Z",
         "website": "https://facctconference.org/",
-        "submission_link": "https://facctconference.org/2025/cfp"
+        "submission_link": "https://facctconference.org/2025/cfp",
+        "category": "N/A",
     },
     {
         "acronym": "ARES",
@@ -62,7 +68,8 @@ const CONFERENCES = [
         "location": "Vienna, Austria",
         "deadline": "2025-03-11T23:59:00Z",
         "website": "https://2025.ares-conference.eu/",
-        "submission_link": "https://2025.ares-conference.eu/call-for-papers/"
+        "submission_link": "https://2025.ares-conference.eu/call-for-papers/",
+        "category": "N/A",
     },
     {
         "acronym": "NeurIPS",
@@ -72,7 +79,8 @@ const CONFERENCES = [
         "abstract_deadline": "May 11, 2025 AoE",
         "deadline": "May 15, 2025 AoE",
         "website": "https://neurips.cc/",
-        "submission_link": "https://neurips.cc/Conferences/2025/CallForPapers"
+        "submission_link": "https://neurips.cc/Conferences/2025/CallForPapers",
+        "category": "AI",
     },
     {
         "acronym": "NeurIPS (Position)",
@@ -82,7 +90,8 @@ const CONFERENCES = [
         "abstract_deadline": "May 8, 2025 AoE",
         "deadline": "May 22, 2025 AoE",
         "website": "https://neurips.cc/",
-        "submission_link": "https://neurips.cc/Conferences/2025/CallForPositionPapers"
+        "submission_link": "https://neurips.cc/Conferences/2025/CallForPositionPapers",
+        "category": "N/A",
     },
     {
         "acronym": "ICML (Position)",
@@ -92,7 +101,8 @@ const CONFERENCES = [
         "abstract_deadline": "Jan 23, 2025 AoE",
         "deadline": "Jan 30, 2025 AoE",
         "website": "https://icml.cc/",
-        "submission_link": "https://icml.cc/Conferences/2025/CallForPositionPapers"
+        "submission_link": "https://icml.cc/Conferences/2025/CallForPositionPapers",
+        "category": "N/A",
     },
     {
         "acronym": "ICLR",
@@ -102,7 +112,8 @@ const CONFERENCES = [
         "abstract_deadline": "Sep 27, 2024 AoE",
         "deadline": "Oct 1, 2024 AoE",
         "website": "https://iclr.cc/",
-        "submission_link": "https://iclr.cc/Conferences/2025/CallForPapers"
+        "submission_link": "https://iclr.cc/Conferences/2025/CallForPapers",
+        "category": "AI",
     },
     {
         "acronym": "AAAI",
@@ -112,7 +123,8 @@ const CONFERENCES = [
         "abstract_deadline": "Jul 25, 2025 AoE",
         "deadline": "Aug 1, 2025 AoE",
         "website": "https://aaai.org/conference/aaai/aaai-26/",
-        "submission_link": "https://aaai.org/conference/aaai/aaai-26/main-technical-track-call/"
+        "submission_link": "https://aaai.org/conference/aaai/aaai-26/main-technical-track-call/",
+        "category": "AI",
     },
     {
         "acronym": "AAAI (AI for Social Impact)",
@@ -122,7 +134,8 @@ const CONFERENCES = [
         "abstract_deadline": "Jul 25, 2025 AoE",
         "deadline": "Aug 1, 2025 AoE",
         "website": "https://aaai.org/conference/aaai/aaai-26/",
-        "submission_link": "https://aaai.org/conference/aaai/aaai-26/aisi-call/"
+        "submission_link": "https://aaai.org/conference/aaai/aaai-26/aisi-call/",
+        "category": "N/A",
     },
     {
         "acronym": "AAAI (AI Alignment)",
@@ -132,7 +145,8 @@ const CONFERENCES = [
         "abstract_deadline": "Jul 25, 2025 AoE",
         "deadline": "Aug 1, 2025 AoE",
         "website": "https://aaai.org/conference/aaai/aaai-26/",
-        "submission_link": "https://aaai.org/conference/aaai/aaai-26/aia-call/"
+        "submission_link": "https://aaai.org/conference/aaai/aaai-26/aia-call/",
+        "category": "N/A",
     },
 ];
 
@@ -140,7 +154,7 @@ const CONFERENCES = [
 const conferencesContainer = document.getElementById('conferences-container');
 
 // Main function to load and display conferences
-function loadConferences(showClosed = true) {
+function loadConferences(showClosed = true, showAIOnly = false) {
     // Clear existing cards
     conferencesContainer.innerHTML = '';
     
@@ -167,7 +181,9 @@ function loadConferences(showClosed = true) {
     // Create and display conference cards
     sortedConferences.forEach(conference => {
         const isExpired = parseDateWithAoE(conference.deadline) < new Date();
-        if (showClosed || !isExpired) {
+        const isAI = conference.category === 'AI';
+        
+        if ((showClosed || !isExpired) && (showAIOnly || !isAI)) {
             const card = createConferenceCard(conference);
             conferencesContainer.appendChild(card);
         }
@@ -180,12 +196,18 @@ function loadConferences(showClosed = true) {
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', () => {
-    loadConferences(false);
+    loadConferences(false, false);
     
-    // Add event listener for show closed checkbox
+    // Add event listeners for checkboxes
     const showClosedCheckbox = document.getElementById('show-closed');
+    const showAICheckbox = document.getElementById('show-ai');
+    
     showClosedCheckbox.addEventListener('change', (e) => {
-        loadConferences(e.target.checked);
+        loadConferences(e.target.checked, showAICheckbox.checked);
+    });
+    
+    showAICheckbox.addEventListener('change', (e) => {
+        loadConferences(showClosedCheckbox.checked, e.target.checked);
     });
 });
 
