@@ -14,7 +14,7 @@ const CONFERENCES = [
         "full_name": "AEJMC 108th Annual Conference",
         "year": 2025,
         "location": "San Francisco, USA",
-        "deadline": "2025-07-15T04:59:00Z",
+        "deadline": "2025-04-02T04:59:00Z",
         "website": "https://community.aejmc.org/conference/home",
         "submission_link": "https://community.aejmc.org/conference/paper-competition/papercall"
     },
@@ -205,8 +205,8 @@ function createConferenceCard(conference) {
                 <div class="conference-meta">
                     <p>${conference.full_name}</p>
                     <p><strong>Year:</strong> ${conference.year} | <strong>Location:</strong> ${conference.location}</p>
-                    <p><strong>Deadline:</strong> ${formattedDate}</p>
                     ${abstractDeadlineHTML}
+                    <p><strong>Deadline:</strong> ${formattedDate}</p>
                 </div>
                 <div class="countdown" data-deadline="${conference.deadline}">
                     ${isExpired ? 'Submission Closed' : 'Calculating...'}
