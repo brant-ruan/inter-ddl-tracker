@@ -1,0 +1,153 @@
+:root {
+    --primary-color:  #6a42ec;
+    --secondary-color: #0321b9;
+    --background-color: #f5f7fa;
+    --card-color: #ffffff;
+    --text-color: #333333;
+    --highlight-color: #e74c3c;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.controls {
+    padding: 1rem 1.5rem;
+    background-color: var(--background-color);
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.controls label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.controls input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#conferences-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.conference-card {
+    background-color: var(--card-color);
+    border-left: 4px solid var(--secondary-color);
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    /* border-radius: 12px; */
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: rgba(106, 66, 236, 0.05);
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.card-header:hover {
+    background-color: rgba(106, 66, 236, 0.1);
+}
+
+.conference-name {
+    color: var(--primary-color);
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.toggle-icon {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.card-content {
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.conference-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 0;
+}
+
+.conference-meta {
+    flex: 1;
+}
+
+.conference-meta p {
+    margin: 0 0 0.6em 0;
+}
+
+.conference-meta p:last-child {
+    margin-bottom: 0.72em;
+}
+
+.abstract-deadline {
+    margin-top: 0.25rem;
+    color:  var(--highlight-color);
+}
+
+.countdown {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--highlight-color);
+    margin-left: 1.5rem;
+    min-width: 180px;
+    text-align: right;
+    align-self: flex-start; 
+}
+
+.links {
+    /* margin-top: 0.75rem; */
+}
+
+.links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    #conferences-container {
+        grid-template-columns: 1fr;
+    }
+}
