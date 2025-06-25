@@ -75,7 +75,7 @@ const CONFERENCES = [
         "submission_link": "https://neurips.cc/Conferences/2025/CallForPapers"
     },
     {
-        "acronym": "NeurIPS Position",
+        "acronym": "NeurIPS (Position)",
         "full_name": "39th Annual Conference on Neural Information Processing Systems",
         "year": 2025,
         "location": "San Diego, USA",
@@ -85,7 +85,7 @@ const CONFERENCES = [
         "submission_link": "https://neurips.cc/Conferences/2025/CallForPositionPapers"
     },
     {
-        "acronym": "ICML Position",
+        "acronym": "ICML (Position)",
         "full_name": "42th Annual International Conference on Machine Learning",
         "year": 2025,
         "location": "Vancouver, Canada",
@@ -103,6 +103,36 @@ const CONFERENCES = [
         "deadline": "Oct 1, 2024 AoE",
         "website": "https://iclr.cc/",
         "submission_link": "https://iclr.cc/Conferences/2025/CallForPapers"
+    },
+    {
+        "acronym": "AAAI",
+        "full_name": "40th Annual AAAI Conference on Artificial Intelligence",
+        "year": 2026,
+        "location": "Singapore",
+        "abstract_deadline": "Jul 25, 2025 AoE",
+        "deadline": "Aug 1, 2025 AoE",
+        "website": "https://aaai.org/conference/aaai/aaai-26/",
+        "submission_link": "https://aaai.org/conference/aaai/aaai-26/main-technical-track-call/"
+    },
+    {
+        "acronym": "AAAI (AI for Social Impact)",
+        "full_name": "40th Annual AAAI Conference on Artificial Intelligence",
+        "year": 2026,
+        "location": "Singapore",
+        "abstract_deadline": "Jul 25, 2025 AoE",
+        "deadline": "Aug 1, 2025 AoE",
+        "website": "https://aaai.org/conference/aaai/aaai-26/",
+        "submission_link": "https://aaai.org/conference/aaai/aaai-26/aisi-call/"
+    },
+    {
+        "acronym": "AAAI (AI Alignment)",
+        "full_name": "40th Annual AAAI Conference on Artificial Intelligence",
+        "year": 2026,
+        "location": "Singapore",
+        "abstract_deadline": "Jul 25, 2025 AoE",
+        "deadline": "Aug 1, 2025 AoE",
+        "website": "https://aaai.org/conference/aaai/aaai-26/",
+        "submission_link": "https://aaai.org/conference/aaai/aaai-26/aia-call/"
     },
 ];
 
