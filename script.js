@@ -118,6 +118,22 @@ function loadConferences(showClosed = true) {
     const sortedConferences = [...CONFERENCES].sort((a, b) => 
         parseDateWithAoE(a.deadline) - parseDateWithAoE(b.deadline));
 
+    // Check if all conferences are closed
+    const allClosed = sortedConferences.every(conf => 
+        parseDateWithAoE(conf.deadline) < new Date());
+
+    // Show empty state if all closed and not showing closed
+    if (allClosed && !showClosed) {
+        const emptyState = document.createElement('div');
+        emptyState.className = 'empty-state';
+        emptyState.innerHTML = `
+            <p>Currently there are no conferences open for submission.</p>
+            <p>Check back later or toggle "Show closed submissions" to view past deadlines.</p>
+        `;
+        conferencesContainer.appendChild(emptyState);
+        return;
+    }
+
     // Create and display conference cards
     sortedConferences.forEach(conference => {
         const isExpired = parseDateWithAoE(conference.deadline) < new Date();

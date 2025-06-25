@@ -76,6 +76,20 @@ h1 {
     margin: 0 auto;
 }
 
+.empty-state {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-color);
+    background-color: var(--card-color);
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.empty-state p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
 .conference-card {
     background-color: var(--card-color);
     border-left: 4px solid var(--secondary-color);
