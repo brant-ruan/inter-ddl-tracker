@@ -27,11 +27,18 @@ header {
     position: relative;
 }
 
+.sandglass-icon {
+    height: 2.5rem;
+    /* margin-right: 0.2rem; */
+    /* filter: brightness(0) invert(1); */
+}
+
 .github-link {
     color: white;
     transition: transform 0.2s ease;
     display: flex;
     align-items: center;
+    margin-left: 0.3rem;
 }
 
 .github-link:hover {
