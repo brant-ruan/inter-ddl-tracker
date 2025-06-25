@@ -20,7 +20,26 @@ header {
     background-color: var(--primary-color);
     color: white;
     padding: 1.5rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.github-link {
+    color: white;
+    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+}
+
+.github-link:hover {
+    transform: scale(1.1);
+}
+
+.github-link svg {
+    fill: currentColor;
 }
 
 .controls {
