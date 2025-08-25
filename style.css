@@ -174,10 +174,6 @@ h1 {
     align-self: flex-start; 
 }
 
-.links {
-    /* margin-top: 0.75rem; */
-}
-
 .links a {
     color: var(--secondary-color);
     text-decoration: none;
@@ -188,8 +184,190 @@ h1 {
     text-decoration: underline;
 }
 
+/* Mobile optimizations */
 @media (max-width: 768px) {
+    /* Global mobile optimizations */
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        overflow-x: hidden;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+
+    header {
+        padding: 1rem;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+    
+    .sandglass-icon {
+        height: 2rem;
+    }
+    
+    .github-link svg {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .controls {
+        padding: 1rem;
+        gap: 1rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .controls label {
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .controls input[type="checkbox"] {
+        width: 1.2rem;
+        height: 1.2rem;
+        touch-action: manipulation;
+    }
+    
     #conferences-container {
-        grid-template-columns: 1fr;
+        padding: 1rem;
+        gap: 0.75rem;
+    }
+    
+    .empty-state {
+        padding: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .empty-state p {
+        font-size: 1rem;
+    }
+    
+    .conference-card {
+        padding: 0.5rem;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .card-header {
+        padding: 0.75rem;
+        min-height: 44px;
+        touch-action: manipulation;
+    }
+    
+    .conference-name {
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+    
+    .conference-details {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .card-content {
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .countdown {
+        font-size: 1.1rem;
+        margin-left: 0;
+        min-width: auto;
+        text-align: left;
+        align-self: stretch;
+        background-color: rgba(231, 76, 60, 0.1);
+        padding: 0.5rem;
+        border-radius: 4px;
+        border-left: 3px solid var(--highlight-color);
+    }
+    
+    .conference-meta p {
+        margin: 0 0 0.5em 0;
+        font-size: 0.95rem;
+    }
+    
+    .links a {
+        margin-right: 0.75rem;
+        margin-bottom: 0.5rem;
+        padding: 0.5rem;
+        background-color: rgba(3, 33, 185, 0.1);
+        border-radius: 4px;
+        font-size: 0.9rem;
+        display: inline-block;
+        touch-action: manipulation;
+    }
+    
+    .links a:hover {
+        background-color: rgba(3, 33, 185, 0.15);
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 0.75rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    h1 {
+        font-size: 1.25rem;
+        margin-top: 0.5rem;
+    }
+    
+    .controls {
+        padding: 0.75rem;
+    }
+    
+    #conferences-container {
+        padding: 0.75rem;
+    }
+    
+    .empty-state {
+        padding: 1rem;
+        margin-top: 0.75rem;
+    }
+    
+    .empty-state p {
+        font-size: 0.95rem;
+    }
+    
+    .conference-card {
+        padding: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .card-header {
+        padding: 0.75rem 0.5rem;
+    }
+    
+    .conference-name {
+        font-size: 0.95rem;
+    }
+    
+    .toggle-icon {
+        font-size: 1.1rem;
+    }
+    
+    .countdown {
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+    
+    .links a {
+        display: block;
+        margin: 0 0 0.5rem 0;
+        text-align: center;
+        padding: 0.75rem;
+        touch-action: manipulation;
     }
 }
