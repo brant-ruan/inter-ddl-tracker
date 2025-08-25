@@ -37,7 +37,7 @@ const CONFERENCES = [
         "location": "Cape Town, South Africa",
         "deadline": "2025-11-01T16:00:00Z",
         "website": "https://www.icahdq.org/mpage/ICA26",
-        "submission_link": "https://centerforinterculturaldialogue.org/2025/07/04/cfp-ica-2026-communication-and-inequalities-in-context-south-africa/",
+        "submission_link": "https://www.icahdq.org/mpage/ICA26-theme",
         "category": "Communication",
     },
     {
