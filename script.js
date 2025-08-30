@@ -137,6 +137,16 @@ const CONFERENCES = [
         "submission_link": "https://chi2026.acm.org/authors/papers/",
         "category": "HCI",
     },
+    {
+        "acronym": "清华大学计算法学国际会议",
+        "full_name": "清华大学计算法学国际会议",
+        "year": 2025,
+        "location": "Shanghai, China",
+        "deadline": "2025-10-10T15:59:00Z",
+        "website": "https://mp.weixin.qq.com/s/14CJFhfcKRwZ1Rx77S9epA",
+        "submission_link": "https://mp.weixin.qq.com/s/14CJFhfcKRwZ1Rx77S9epA",
+        "category": "Law",
+    },
     // {
     //     "acronym": "AAAI (AI for Social Impact)",
     //     "full_name": "40th Annual AAAI Conference on Artificial Intelligence",
