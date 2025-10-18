@@ -53,12 +53,12 @@ const CONFERENCES = [
     {
         "acronym": "FAccT",
         "full_name": "ACM Conference on Fairness, Accountability, and Transparency",
-        "year": 2025,
-        "location": "Athens, Greece",
-        "abstract_deadline": "2025-01-15T23:59:00Z",
-        "deadline": "2025-01-22T23:59:00Z",
+        "year": 2026,
+        "location": "Montreal, Canada",
+        "abstract_deadline": "2026-01-08T23:59:00Z",
+        "deadline": "2026-01-13T23:59:00Z",
         "website": "https://facctconference.org/",
-        "submission_link": "https://facctconference.org/2025/cfp",
+        "submission_link": "https://facctconference.org/2026/cfp",
         "category": "N/A",
     },
     {
