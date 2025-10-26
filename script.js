@@ -35,7 +35,7 @@ const CONFERENCES = [
         "full_name": "76th Annual ICA Conference",
         "year": 2026,
         "location": "Cape Town, South Africa",
-        "deadline": "2025-11-01T16:00:00Z",
+        "deadline": "2025-11-03T17:00:00Z",
         "website": "https://www.icahdq.org/mpage/ICA26",
         "submission_link": "https://www.icahdq.org/mpage/ICA26-theme",
         "category": "Communication",
